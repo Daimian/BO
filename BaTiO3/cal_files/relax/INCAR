@@ -1,0 +1,18 @@
+#GENERAL:
+EDIFF=1e-8 #1e-7 for relax and max 1e-8 for really good energies
+ISMEAR=-5 #for metals 1 for insulators/semiconductors -5
+#SIGMA=0.1 #just for ISMEAR 1 and -1 etc not -5, use 0.1  
+ENCUT=600 #cutoff of plane wave expansion, needs to be converged minimum 1.3*biggest ENMAX in POTCAR
+PREC=HIGH #Accurate for really good convergance
+ALGO= F # DFT algorithm use F for fast and stable, N for stable and slower, VF is very fast but unstable
+LBORT=11 #prints site resolved information
+ISPIN=1 #1 for non magn and 2 for mag calc
+GGA=PS
+#MAGMOM=3 3 #intial magnentic moments for each atom a bit higher than what you expect at the end
+NCORE = 10
+#RELAX
+#ISIF=3 #picks what is relaxed shape, volume and positions 3 is everything
+IBRION=-1 #1 is fast but unstable and 2 is slower but stable
+#NSW=100 #max number of structures tried
+#EDIFFG=-0.001 #minus is forces eV/Ang and no minus is energy eV
+
