@@ -6,6 +6,7 @@ Bayesian Optimization of Effective Hamiltonian for BaTiO3
 - Python 3.11.5
 
 ## Installation
+```bash
 conda create --name BO python=3.11.5
 
 conda activate BO
@@ -15,3 +16,4 @@ conda install -c pytorch pytorch torchvision torchaudio
 conda install -c conda-forge botorch
 
 conda install -c conda-forge pymatgen
+```
