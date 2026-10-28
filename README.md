@@ -9,9 +9,7 @@ optimization (TuRBO trust regions with BoTorch), evaluated with VASP, and the Ha
 coefficients are refitted by linear regression after each step. Fewer than 30 distorted
 configurations were enough to fit the Hamiltonian for BaTiO₃, with Monte Carlo transition temperatures within 10% of experiment.
 
-This is the research code used for the paper below, kept as it was run on the cluster. For a
-general-purpose Bayesian optimization framework developed in our group, see
-[matbo](https://github.com/Daimian/matbo).
+This is the research code used for the paper below, kept as it was run on the cluster.
 
 ## Paper
 
